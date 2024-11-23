@@ -13,7 +13,7 @@ from PIL import Image
 ############
 
 # Correct path to the fil
-image = Image.open('/Users/macos/Downloads/DEALERLIST.png')
+image = Image.open('images/DEALERLIST.png')
 
 st.image(image, use_column_width= True)
 
