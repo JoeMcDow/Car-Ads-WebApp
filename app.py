@@ -27,7 +27,7 @@ st.markdown("""
 
 ##################
 
-df = pd.read_csv('/Users/macos/Downloads/vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 df['manufacturer'] = df['model'].apply(lambda x: x.split()[0])
 
 st.header('Data viewer')
